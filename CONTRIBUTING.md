@@ -23,7 +23,7 @@ How work gets done in repositories owned by MettyS on GitHub. Written for a team
 | Repository | Lowercase with hyphens, same as the local folder. Related repositories share a prefix | `ai-creature`, `ai-creature-blub` |
 | Branch | Lowercase with hyphens, 2 to 4 words naming what the change is, not where or why it's needed. No `feature/` or personal prefixes | `run-instructions` |
 | Pull request title | An instruction in sentence case, 72 characters at most, no prefix, no full stop. It should work as a line in release notes | `Add memory decay to the feelings engine` |
-| Commit | Same style as a pull request title. The body says why. Commits Claude writes keep their Co-Authored-By line | |
+| Commit | Same style as a pull request title. The body says why | |
 | Version tag | `v` plus the version number | `v0.2.0` |
 | Files | The language's usual convention, otherwise lowercase with hyphens | |
 
@@ -67,6 +67,7 @@ Three parts, which the template sets out:
 - These standards say how to do things. They don't give permission: commit, push, open or merge a pull request, or make a release only when asked.
 - Before opening a pull request, run the project's `check` command, and say under "Tested" what ran and what didn't.
 - When naming a branch or a pull request, describe the change itself.
+- Commits and pull requests go out under the author's name only. Leave out the Co-Authored-By trailer and the "Generated with Claude Code" line.
 
 ## Left out on purpose
 
